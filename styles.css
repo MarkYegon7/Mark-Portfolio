@@ -9,9 +9,6 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-
-  /* position: fixed; */
-
   top: 0;
   left: 0;
   width: 100vw;
@@ -25,6 +22,7 @@ body {
   margin: 0;
   padding: 0;
   margin-left: 25px;
+  text-decoration: none;
 }
 
 .image-icon {
@@ -106,8 +104,6 @@ body {
   border-radius: 0 0 0 80px;
   background-color: white;
   height: 430px;
-
-  /* width: 91vw; */
 }
 
 #body-cover {
