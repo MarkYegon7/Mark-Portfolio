@@ -1,7 +1,12 @@
-body {
-  background-color: #e5e5e5;
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #e5e5e5;
 }
 
 .header-logo {
@@ -133,4 +138,348 @@ body {
     50% 101%,
     52% 6%;
   background-repeat: no-repeat;
+}
+
+.works-container {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  min-height: 100%;
+  row-gap: 40px;
+  margin-top: 70px;
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2.313rem;
+  margin-bottom: 1.875rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: 0.063rem solid rgb(209, 205, 205);
+  border-radius: 25px;
+  padding-bottom: 28px;
+  background-color: white;
+}
+
+.w_ctn .header {
+  height: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.188rem;
+  line-height: 2.75rem;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 1rem;
+  margin-bottom: 16px;
+}
+
+.description {
+  list-style: none;
+  height: 2.313rem;
+}
+
+ul.description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 16px;
+}
+
+.canopy {
+  width: 3.438rem;
+  height: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-right: 12px;
+}
+
+.back {
+  width: 6.125rem;
+  height: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #7a869a;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.more-info {
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: 1rem;
+}
+
+.languages {
+  width: 1.813rem;
+  height: 3.25rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1rem;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  display: flex;
+  list-style: none;
+}
+
+.lang {
+  margin: 0 0.625rem;
+  padding: 0 10px;
+  border-radius: 0.438rem;
+  margin-top: 0.125rem;
+  background-color: #ebebff;
+  width: fit-content;
+  height: 2.063rem;
+  border: 0;
+}
+
+#lan-1 {
+  width: 2.938rem;
+  height: 1.938rem;
+  color: #6070ff;
+  font-size: 0.938rem;
+}
+
+#lan-2 {
+  width: 2.688rem;
+  height: 1.938rem;
+  color: #6070ff;
+  font-size: 0.938rem;
+}
+
+#lan-3 {
+  width: 5.25rem;
+  height: 2rem;
+  color: #6070ff;
+  font-size: 0.938rem;
+}
+
+.see {
+  font-family: 'Poppins', sans-serif;
+  width: 7.5rem;
+  height: 5.25rem;
+  color: #396df2;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+  background: #fff;
+  border: 1px solid blue;
+  font-size: 1.188rem;
+}
+
+#see-1 {
+  width: 7.5rem;
+  height: 3.125rem;
+}
+
+.image1 {
+  width: 18.438rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 auto;
+  display: block;
+}
+
+.image2 {
+  width: 18.438rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 auto;
+  display: block;
+}
+
+.image3 {
+  width: 18.438rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 auto;
+  display: block;
+}
+
+.image4 {
+  width: 18.438rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 auto;
+  display: block;
+}
+
+.about-myself {
+  background-color: #fff;
+  border-radius: 0 70px 0 0;
+  padding-bottom: 8rem;
+}
+
+.myself {
+  margin-top: 6.25rem;
+  height: 990px;
+  margin-bottom: 80px;
+  padding: 20px 24px 0 24px;
+  background-color: #fff;
+  border-radius: 0 70px 0 0;
+}
+
+.about {
+  margin-bottom: 0.938rem;
+  margin-top: 3.125rem;
+  margin-left: 0;
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: #172b4d;
+}
+
+.experience {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.188rem;
+  margin-bottom: 0.625rem;
+  color: #344563;
+}
+
+.connect-1 {
+  height: 3.125rem;
+  color: #7f8cff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.icons-1 {
+  height: 3.125rem;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-right: 0;
+  padding-right: 21%;
+  margin-left: -7%;
+}
+
+.icons-2 {
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0%;
+}
+
+.resume {
+  margin-bottom: 1.125rem;
+  border-radius: 0.5rem;
+  font-size: 1.188rem;
+  width: 9.375rem;
+  height: 3.125rem;
+  border: 0.063rem solid blue;
+  background-color: #fff;
+  color: #396df2;
+}
+
+.language-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.languages-below {
+  list-style-type: none;
+}
+
+.languages-below li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+}
+
+.languages-1 {
+  font-size: 23px;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+#languages-23 {
+  background-image: url('images/Union-down.svg');
+  background-repeat: no-repeat;
+  background-position: 18rem;
+}
+
+.language-icons {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 12px;
+}
+
+.language-icons li {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f9;
+  padding: 9px 12px;
+  border-radius: 12px;
+}
+
+.language-icons li p {
+  margin-left: 16px;
+}
+
+.alternative {
+  width: 70vw;
+}
+
+.frame {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 35px;
+  font-size: 1.563rem;
+  font-weight: 500;
+  height: 2.5rem;
+  border-bottom: 0.063rem solid rgb(186, 183, 183);
+}
+
+.skills {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15px;
+  font-size: 1.563rem;
+  font-weight: 500;
+  height: 3.125rem;
+  margin-bottom: 0.938rem;
+  border-bottom: 0.063rem solid rgb(186, 183, 183);
 }

@@ -25,7 +25,7 @@ Mark-Portfolio is an activity created on the first week to show the knowledge we
 
 ### Tech Stack <a name="tech-stack"></a>
 
-The project is to determine the basic knowledge one has in git,HTML5,CSS,flexbox and Linters
+The project is to determine the basic knowledge one has in git,HTML5,CSS,CSS Grid,flexbox and Linters
 
 <details>
   <summary>Client</summary>
@@ -33,6 +33,7 @@ The project is to determine the basic knowledge one has in git,HTML5,CSS,flexbox
     <li>HTML5</li>
     <li>CSS</li>
     <li>Flexbox</li>
+    <li>CSS Grid</li>
     <li>Figma</li>
   </ul>
 </details>
