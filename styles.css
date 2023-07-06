@@ -390,7 +390,9 @@ ul.description {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  margin-right: 5rem;
+  margin-right: 0;
+  padding-right: 21%;
+  margin-left: -7%;
 }
 
 .icons-2 {
