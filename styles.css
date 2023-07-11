@@ -515,7 +515,6 @@ ul.description {
   margin: 4.375rem 0 0 0;
 }
 
-
 .application {
   font-size: 20px;
   font-weight: 400;
@@ -536,11 +535,6 @@ form {
   flex-direction: column;
   width: 60.2vw;
 }
-
-/* .name {
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-} */
 
 form input {
   margin-top: 1.25rem;
