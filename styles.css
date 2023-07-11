@@ -20,7 +20,7 @@ body {
 }
 
 .LOGO {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #6070ff;
   font-weight: 700;
   font-size: 18px;
@@ -40,7 +40,7 @@ body {
 }
 
 .title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 3.125rem;
   line-height: 3.25rem;
@@ -54,7 +54,7 @@ body {
 }
 
 .intro {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5rem;
@@ -66,7 +66,7 @@ body {
 
 .lets-connect {
   width: 9.375rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 110%;
@@ -113,30 +113,14 @@ body {
 
 #body-cover {
   border: 0;
-  background-image:
-    url('images/Rectangle\ 6.svg'),
-    url('images/Ellipse\ 11.svg'),
-    url('images/Ellipse\ 12.svg'),
-    url('images/Ellipse\ 13.svg'),
-    url('images/Ellipse\ 15.svg'),
-    url('images/Ellipse\ 3.svg'),
-    url('images/Ellipse\ 4.svg'),
-    url('images/Ellipse\ 5.svg'),
-    url('images/Rectangle\ 4.svg'),
-    url('images/Rectangle\ 5.svg'),
-    url('images/Rectangle\ 7.svg');
-  background-position:
-    0% 1%,
-    0% 4.1%,
-    90% 87%,
-    88% 90%,
-    12% 95%,
-    100% 6.5%,
-    55% 99%,
-    50% 7%,
-    100% 1%,
-    50% 101%,
-    52% 6%;
+  background-image: url("images/Rectangle\ 6.svg"),
+    url("images/Ellipse\ 11.svg"), url("images/Ellipse\ 12.svg"),
+    url("images/Ellipse\ 13.svg"), url("images/Ellipse\ 15.svg"),
+    url("images/Ellipse\ 3.svg"), url("images/Ellipse\ 4.svg"),
+    url("images/Ellipse\ 5.svg"), url("images/Rectangle\ 4.svg"),
+    url("images/Rectangle\ 5.svg"), url("images/Rectangle\ 7.svg");
+  background-position: 0% 1%, 0% 4.1%, 90% 87%, 88% 90%, 12% 95%, 100% 6.5%,
+    55% 99%, 50% 7%, 100% 1%, 50% 101%, 52% 6%;
   background-repeat: no-repeat;
 }
 
@@ -164,7 +148,7 @@ body {
 
 .w_ctn .header {
   height: 40px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2.188rem;
@@ -193,7 +177,7 @@ ul.description {
 .canopy {
   width: 3.438rem;
   height: 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1rem;
@@ -208,7 +192,7 @@ ul.description {
 .back {
   width: 6.125rem;
   height: 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 0.875rem;
@@ -221,7 +205,7 @@ ul.description {
 
 .more-info {
   margin-bottom: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.2rem;
@@ -236,7 +220,7 @@ ul.description {
 .languages {
   width: 1.813rem;
   height: 3.25rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1.25rem;
@@ -283,7 +267,7 @@ ul.description {
 }
 
 .see {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 7.5rem;
   height: 5.25rem;
   color: #396df2;
@@ -363,13 +347,13 @@ ul.description {
   margin-top: 3.125rem;
   margin-left: 0;
   font-size: 2.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   color: #172b4d;
 }
 
 .experience {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.188rem;
   margin-bottom: 0.625rem;
   color: #344563;
@@ -378,7 +362,7 @@ ul.description {
 .connect-1 {
   height: 3.125rem;
   color: #7f8cff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -431,13 +415,13 @@ ul.description {
 .languages-1 {
   font-size: 23px;
   color: #000;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   margin-bottom: 25px;
 }
 
 #languages-23 {
-  background-image: url('images/Union-down.svg');
+  background-image: url("images/Union-down.svg");
   background-repeat: no-repeat;
   background-position: 18rem;
 }
@@ -466,7 +450,7 @@ ul.description {
 }
 
 .frame {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-top: 35px;
   font-size: 1.563rem;
   font-weight: 500;
@@ -475,7 +459,7 @@ ul.description {
 }
 
 .skills {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-top: 15px;
   font-size: 1.563rem;
   font-weight: 500;
@@ -485,7 +469,7 @@ ul.description {
 }
 
 .contact-form {
-  background: url('images/shapes-mobile.svg') no-repeat;
+  background: url("images/shapes-mobile.svg") no-repeat;
   background-size: auto;
   background-position: top right;
   border: 1px solid #6070ff;
@@ -508,7 +492,7 @@ ul.description {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
-  font-family: 'Poppins', system-ui, Courier, monospace;
+  font-family: "Poppins", system-ui, Courier, monospace;
   font-style: normal;
   color: #fff;
   position: relative;
@@ -518,7 +502,7 @@ ul.description {
 .application {
   font-size: 20px;
   font-weight: 400;
-  font-family: 'Poppins', system-ui, Courier, monospace;
+  font-family: "Poppins", system-ui, Courier, monospace;
   font-style: normal;
   color: #ebebff;
   text-align: center;
@@ -596,4 +580,15 @@ button {
   font-style: normal;
   font-weight: 549;
   font-size: 1.25rem;
+}
+
+hr {
+  border: 1px solid #0d151e;
+  background-color: #0d151e;
+  width: 134px;
+  height: 2px;
+  border-radius: 10px;
+  align-self: center;
+  margin-bottom: 10px;
+  margin-top: 40px;
 }
