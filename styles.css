@@ -608,3 +608,220 @@ hr {
   margin-bottom: 10px;
   margin-top: 40px;
 }
+
+.nav-content {
+  display: none;
+}
+
+/* ====================================================================================================================== */
+
+/* Styling the desktop version */
+
+@media screen and (min-width: 768px) {
+  .header-logo {
+    height: 65px;
+    z-index: 10;
+    position: relative;
+  }
+
+  .image-icon {
+    display: none;
+  }
+
+  .LOGO {
+    font-family: 'Poppins', system-ui, Courier, monospace;
+    color: #6070ff;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    padding-left: 5rem;
+  }
+
+  .nav-content {
+    color: #344563;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', system-ui, Courier, monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    list-style: none;
+    padding-right: 8rem;
+    gap: 44px;
+  }
+
+  #body-cover {
+    background-image: url('images/Header\ bg.svg');
+    padding: 0;
+    position: relative;
+    height: calc(100vh - 65px);
+  }
+
+  #body-cover .ctn {
+    width: 70%;
+    height: 50%;
+    margin-left: 10%;
+    margin-top: 0;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ctn .title {
+    margin-bottom: calc(2vw);
+  }
+
+  .ctn .social-buttons {
+    margin-bottom: calc(2vw);
+  }
+
+  #works-container .works {
+    width: 80%;
+    height: calc(20vw + 250px);
+    margin-left: 10%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    flex-direction: row;
+  }
+
+  .image1 {
+    display: none;
+  }
+
+  .image2 {
+    display: none;
+  }
+
+  .image3 {
+    display: none;
+  }
+
+  .image4 {
+    display: none;
+  }
+
+  .works .illustration {
+    margin-top: 2.4%;
+    height: 90%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/Snapshoot\ Portfolio1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .works2 .illustration {
+    background-image: url('images/Snapshoot\ Portfolio2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .works3 .illustration {
+    background-image: url('images/Snapshoot\ Portfolio3.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .works4 .illustration {
+    background-image: url('images/Snapshoot\ Portfolio4.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .works .w_ctn {
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+    padding-top: 5%;
+    box-sizing: border-box;
+  }
+
+  .w_ctn .description {
+    display: inline;
+  }
+
+  .description li {
+    display: inline;
+    margin-right: 12px;
+  }
+
+  .canopy {
+    margin-right: 0;
+  }
+
+  .more-info {
+    margin-top: 2rem;
+  }
+
+  .myself {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .languages-below {
+    padding-top: 50px;
+    margin-left: 40px;
+  }
+
+  .language-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .language-icons li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .language-icons li p {
+    width: 7vw;
+  }
+
+  .icons-1 {
+    padding-right: 42%;
+    margin-left: -7%;
+  }
+
+  .application {
+    padding-left: 377px;
+    padding-right: 387px;
+    width: 40vw;
+  }
+
+  .contact-form {
+    background: url('images/contact\ form\ background\ shapes.svg') no-repeat;
+    background-size: auto;
+    border: 1px solid #6070ff;
+    border-radius: 100px 0 0 0;
+    background-color: #6070ff;
+    margin-top: 4rem;
+  }
+
+  .form-1 {
+    padding-left: 104px;
+    padding-right: 18px;
+  }
+
+  form {
+    margin-top: 1px;
+    width: 31vw;
+    margin-bottom: 4rem;
+  }
+  
+  .button3 {
+    margin-left: 10vw;
+  }
+
+  .hr {
+    display: none;
+  }
+}
