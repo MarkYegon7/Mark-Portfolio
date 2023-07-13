@@ -41,7 +41,7 @@ The project is to determine the basic knowledge one has in git,HTML5,CSS,CSS Gri
 
 ### Key Features <a name="key-features"></a>
 
-- The site is responsive to mobile screens(375px)
+- The site is responsive to mobile screens(375px) and desktop screens(768px)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
