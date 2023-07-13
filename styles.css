@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 *,
 *::after,
@@ -325,6 +325,7 @@ ul.description {
   flex-grow: 0;
   margin: 0 auto;
   display: block;
+  transition: all 0.5s;
 }
 
 .image2 {
@@ -336,6 +337,7 @@ ul.description {
   flex-grow: 0;
   margin: 0 auto;
   display: block;
+  transition: all 0.5s;
 }
 
 .image3 {
@@ -347,6 +349,7 @@ ul.description {
   flex-grow: 0;
   margin: 0 auto;
   display: block;
+  transition: all 0.5s;
 }
 
 .image4 {
@@ -358,6 +361,7 @@ ul.description {
   flex-grow: 0;
   margin: 0 auto;
   display: block;
+  transition: all 0.5s;
 }
 
 .about-myself {
@@ -640,6 +644,13 @@ hr {
   display: none;
 }
 
+.image1,
+.image2,
+.image3,
+.image4 {
+  transform: rotate(360deg);
+}
+
 /* ====================================================================================================================== */
 
 /* Styling the desktop version */
@@ -656,7 +667,7 @@ hr {
   }
 
   .LOGO {
-    font-family: 'Poppins', system-ui, Courier, monospace;
+    font-family: "Poppins", system-ui, Courier, monospace;
     color: #6070ff;
     font-weight: 700;
     font-size: 18px;
@@ -669,7 +680,7 @@ hr {
     color: #344563;
     display: flex;
     justify-content: space-between;
-    font-family: 'Poppins', system-ui, Courier, monospace;
+    font-family: "Poppins", system-ui, Courier, monospace;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -680,7 +691,7 @@ hr {
   }
 
   #body-cover {
-    background-image: url('images/Header\ bg.svg');
+    background-image: url("images/Header\ bg.svg");
     padding: 0;
     position: relative;
     height: calc(100vh - 65px);
@@ -739,25 +750,25 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('images/Snapshoot\ Portfolio1.svg');
+    background-image: url("images/Snapshoot\ Portfolio1.svg");
     background-size: contain;
     background-repeat: no-repeat;
   }
 
   .works2 .illustration {
-    background-image: url('images/Snapshoot\ Portfolio2.svg');
+    background-image: url("images/Snapshoot\ Portfolio2.svg");
     background-size: contain;
     background-repeat: no-repeat;
   }
 
   .works3 .illustration {
-    background-image: url('images/Snapshoot\ Portfolio3.svg');
+    background-image: url("images/Snapshoot\ Portfolio3.svg");
     background-size: contain;
     background-repeat: no-repeat;
   }
 
   .works4 .illustration {
-    background-image: url('images/Snapshoot\ Portfolio4.svg');
+    background-image: url("images/Snapshoot\ Portfolio4.svg");
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -827,7 +838,7 @@ hr {
   }
 
   .contact-form {
-    background: url('images/contact\ form\ background\ shapes.svg') no-repeat;
+    background: url("images/contact\ form\ background\ shapes.svg") no-repeat;
     background-size: auto;
     border: 1px solid #6070ff;
     border-radius: 100px 0 0 0;
