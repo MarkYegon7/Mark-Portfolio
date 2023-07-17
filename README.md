@@ -19,7 +19,7 @@
 
 # 📖 Mark-Portfolio <a name="about-project"></a>
 
-Mark-Portfolio is an activity created on the first week to show the knowledge we have grasped
+Mark-Portfolio is an activity created on the first and second week to show the knowledge we have grasped.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,6 +42,13 @@ The project is to determine the basic knowledge one has in git,HTML5,CSS,CSS Gri
 ### Key Features <a name="key-features"></a>
 
 - The site is responsive to mobile screens(375px) and desktop screens(768px)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,7 +82,7 @@ Clone this repository to your desired folder:git@github.com:MarkYegon7/Mark-Port
 
 - [ ] Be able to add a video section
 
-- [ ] Add a desktop screen size
+- [ ] Add a payment section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
