@@ -60,11 +60,19 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:Clone the repository
+In order to run this project you need: To retrieve the dependencies of this project, run npm install.
 
 ### Setup
 
-Clone this repository to your desired folder:git@github.com:MarkYegon7/Mark-Portfolio.git
+Clone this repository to your desired folder:git@github.com: MarkYegon7/Mark-Portfolio.git
+
+### Usage
+
+To use this project on your local computer, run the index file on a live server or double-click it to open it on a browser directly.
+
+### Deployment
+
+This project has been deployed using GitHub pages.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,7 +117,7 @@ If you like this project feel free to give me feedback email:markyegonk@gmail.co
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse who have been of great help.
+I want to thank Microverse  who have been of great help.
 Code reviewers were of great help
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
