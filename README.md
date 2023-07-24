@@ -19,13 +19,13 @@
 
 # 📖 Mark-Portfolio <a name="about-project"></a>
 
-Mark-Portfolio is an activity created on the first and second week to show the knowledge we have grasped.
+Mark-Portfolio is an activity created on the first module to show the knowledge we have grasped.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-The project is to determine the basic knowledge one has in git,HTML5,CSS,CSS Grid,flexbox and Linters
+The project is to determine the basic knowledge one has in git, HTML5, CSS, CSS Grid, flexbox, Javascript and Linters
 
 <details>
   <summary>Client</summary>
@@ -35,6 +35,7 @@ The project is to determine the basic knowledge one has in git,HTML5,CSS,CSS Gri
     <li>Flexbox</li>
     <li>CSS Grid</li>
     <li>Figma</li>
+    <li>Javascript</li>
   </ul>
 </details>
 
@@ -73,7 +74,11 @@ Clone this repository to your desired folder:git@github.com:MarkYegon7/Mark-Port
 👤 **Mark Yegon**
 
 - GitHub: MarkYegon7 (https://github.com/MarkYegon7)
-- Twitter: Marksambai
+
+
+  👤 **Damian DB**
+
+- GitHub:  DamianDib9(https://github.com/DamianDib9)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
