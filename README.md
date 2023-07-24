@@ -60,7 +60,11 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: To retrieve the dependencies of this project, run npm install.
+In order to run this project you need: Clone the repository.
+
+### Installation
+
+To retrieve the dependencies of this project, run npm install.
 
 ### Setup
 
