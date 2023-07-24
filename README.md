@@ -8,6 +8,9 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -19,13 +22,13 @@
 
 # 📖 Mark-Portfolio <a name="about-project"></a>
 
-Mark-Portfolio is an activity created on the first and second week to show the knowledge we have grasped.
+Mark-Portfolio is an activity created on the first module to show the knowledge we have grasped.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-The project is to determine the basic knowledge one has in git,HTML5,CSS,CSS Grid,flexbox and Linters
+The project is to determine the basic knowledge one has in git, HTML5, CSS, CSS Grid, flexbox, Javascript and Linters
 
 <details>
   <summary>Client</summary>
@@ -35,6 +38,7 @@ The project is to determine the basic knowledge one has in git,HTML5,CSS,CSS Gri
     <li>Flexbox</li>
     <li>CSS Grid</li>
     <li>Figma</li>
+    <li>Javascript</li>
   </ul>
 </details>
 
@@ -59,11 +63,23 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:Clone the repository
+In order to run this project you need: Clone the repository.
+
+### Installation
+
+To retrieve the dependencies of this project, run npm install.
 
 ### Setup
 
-Clone this repository to your desired folder:git@github.com:MarkYegon7/Mark-Portfolio.git
+Clone this repository to your desired folder:git@github.com: MarkYegon7/Mark-Portfolio.git
+
+### Usage
+
+To use this project on your local computer, run the index file on a live server or double-click it to open it on a browser directly.
+
+### Deployment
+
+This project has been deployed using GitHub pages.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,7 +89,11 @@ Clone this repository to your desired folder:git@github.com:MarkYegon7/Mark-Port
 👤 **Mark Yegon**
 
 - GitHub: MarkYegon7 (https://github.com/MarkYegon7)
-- Twitter: Marksambai
+
+
+  👤 **Damian DB**
+
+- GitHub:  DamianDib9(https://github.com/DamianDib9)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,7 +124,7 @@ If you like this project feel free to give me feedback email:markyegonk@gmail.co
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse who have been of great help.
+I want to thank Microverse  who have been of great help.
 Code reviewers were of great help
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
