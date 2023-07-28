@@ -30,7 +30,7 @@ const popup = [
   },
 
   {
-    name: 'Multi-Post Stories',
+    name: 'Multi-Post',
     closeImage: 'images/Icon.svg',
     counterImg: 'images/Counter.svg',
     short_description: ['CANOPY', 'Back End Dev', '2015'],
@@ -57,7 +57,7 @@ const popup = [
   },
 
   {
-    name: 'Multi-Post Stories',
+    name: 'Multi-Post',
     closeImage: 'images/Icon.svg',
     counterImg: 'images/Counter.svg',
     short_description: ['CANOPY', 'Back End Dev', '2015'],
