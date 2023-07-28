@@ -307,6 +307,7 @@ ul.description {
 .see:hover {
   color: #e5e5e5;
   background-color: #6070ff;
+  transition: 0.6s;
 }
 
 .see:active {
