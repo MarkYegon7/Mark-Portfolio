@@ -141,19 +141,11 @@ body {
   background-repeat: no-repeat;
 }
 
-.works-container {
-  display: grid;
-  grid-template-rows: auto auto auto auto;
-  min-height: 100%;
-  row-gap: 40px;
-  margin-top: 70px;
-}
-
 .works {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 2.313rem;
+  margin-top: 5.313rem;
   margin-bottom: 1.875rem;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -163,7 +155,7 @@ body {
   background-color: white;
 }
 
-.w_ctn .header {
+.works .header {
   height: 40px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -176,6 +168,18 @@ body {
   flex-grow: 0;
   margin-left: 1rem;
   margin-bottom: 16px;
+}
+
+.image-mobile {
+  width: 18.438rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 auto;
+  display: block;
+  transition: all 0.5s;
 }
 
 .description {
@@ -252,13 +256,12 @@ ul.description {
 }
 
 .lang {
-  margin: 0 0.625rem;
-  padding: 0 10px;
-  border-radius: 0.438rem;
+  margin: 0 1rem 0 1rem;
+  padding: 8px 10px 0 8px;
+  border-radius: 0.5rem;
   margin-top: 0.125rem;
   background-color: #ebebff;
-  width: fit-content;
-  height: 2.063rem;
+  height: 1.5rem;
   border: 0;
 }
 
@@ -285,8 +288,8 @@ ul.description {
 
 .see {
   font-family: "Poppins", sans-serif;
-  width: 7.5rem;
-  height: 5.25rem;
+  width: 8rem;
+  height: 3rem;
   color: #396df2;
   border-radius: 0.5rem;
   margin-left: 1rem;
@@ -316,52 +319,8 @@ ul.description {
   height: 3.125rem;
 }
 
-.image1 {
-  width: 18.438rem;
-  height: 20rem;
-  border-radius: 0.5rem;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0 auto;
-  display: block;
-  transition: all 0.5s;
-}
-
-.image2 {
-  width: 18.438rem;
-  height: 20rem;
-  border-radius: 0.5rem;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0 auto;
-  display: block;
-  transition: all 0.5s;
-}
-
-.image3 {
-  width: 18.438rem;
-  height: 20rem;
-  border-radius: 0.5rem;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0 auto;
-  display: block;
-  transition: all 0.5s;
-}
-
-.image4 {
-  width: 18.438rem;
-  height: 20rem;
-  border-radius: 0.5rem;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0 auto;
-  display: block;
-  transition: all 0.5s;
+.image-desktop {
+  display: none;
 }
 
 .about-myself {
@@ -680,6 +639,10 @@ hr {
   margin-top: 56px;
 }
 
+.pop_see a {
+  text-decoration: none;
+}
+
 .mobile-Menu-list li a {
   text-decoration: none;
   color: #fff;
@@ -709,6 +672,175 @@ hr {
   left: 35%;
 }
 
+/* ======Popup================================================================================== */
+
+.header-pop {
+  width: 18.438rem;
+  height: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.188rem;
+  line-height: 2.75rem;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 1rem;
+  margin-bottom: 39px;
+}
+
+.pop_description {
+  list-style: none;
+  height: 2.313rem;
+}
+
+ul.pop_description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 16px;
+}
+
+.popup-header {
+  padding-top: 1px;
+}
+
+.popup_xclose {
+  position: absolute;
+  left: 72vw;
+  padding-top: 4px;
+  width: 15px;
+  height: 15px;
+  filter: opacity(0.5) drop-shadow(0 0 black);
+  top: 4vh;
+}
+
+.pop_canopy {
+  width: 3.438rem;
+  height: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-right: 12px;
+}
+
+#pop_counter {
+  width: 0.5rem;
+  height: 0.5rem;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.pop_back {
+  width: 6.125rem;
+  height: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #7a869a;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.pop_image {
+  width: 18.438rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 auto;
+  display: block;
+}
+
+.popdsk_image {
+  display: none;
+}
+
+.pop_more-info {
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: 1rem;
+}
+
+.pop_languages {
+  width: 1.813rem;
+  height: 3.25rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1rem;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  display: flex;
+  list-style: none;
+}
+
+.pop_lang {
+  margin: 0 0.625rem;
+  padding: 10px 6px 0 4px;
+  border-radius: 7px;
+  margin-top: 0.125rem;
+  background-color: #ebebff;
+  width: fit-content;
+  height: 1.6rem;
+  border: 0;
+}
+
+.pop_see {
+  font-family: 'Poppins', sans-serif;
+  color: #396df2;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+  background: #fff;
+  border: 1px solid blue;
+  font-size: 16px;
+  font-weight: 400;
+  width: 30vw;
+}
+
+.pop_hr {
+  margin-left: 36%;
+  width: 25vw;
+}
+
+.pop_works {
+  position: fixed;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  backdrop-filter: blur(127px);
+  box-shadow: 0 0 100px 111px hsl(240deg 2.24% 76.79% / 86%);
+  width: 74vw;
+  top: 6%;
+  left: 10%;
+  height: 84vh;
+}
+
 /* ====================================================================================================================== */
 
 /* Styling the desktop version */
@@ -716,7 +848,6 @@ hr {
 @media screen and (min-width: 768px) {
   .header-logo {
     height: 65px;
-    z-index: 10;
     position: relative;
   }
 
@@ -776,67 +907,38 @@ hr {
     margin-bottom: calc(2vw);
   }
 
-  #works-container .works {
-    width: 80%;
-    height: calc(20vw + 250px);
-    margin-left: 10%;
-    padding: 0 20px;
-    box-sizing: border-box;
-    flex-direction: row;
+  .works-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4px;
+    margin-top: 35px;
+    width: 80vw;
   }
 
-  .image1 {
-    display: none;
+  .works {
+    margin-top: 2.313rem;
+    margin-bottom: 1.875rem;
+    margin-left: 4rem;
+    margin-right: 1rem;
+    border: 0.063rem solid rgb(209, 205, 205);
+    border-radius: 25px;
+    padding-bottom: 28px;
+    background-color: white;
   }
 
-  .image2 {
-    display: none;
-  }
-
-  .image3 {
-    display: none;
-  }
-
-  .image4 {
-    display: none;
-  }
-
-  .works .illustration {
+  .image-desktop {
     margin-top: 2.4%;
-    height: 90%;
-    width: 50%;
+    height: 92%;
+    width: 94%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/Snapshoot\ Portfolio1.svg");
     background-size: contain;
     background-repeat: no-repeat;
   }
 
-  .works2 .illustration {
-    background-image: url("images/Snapshoot\ Portfolio2.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-  .works3 .illustration {
-    background-image: url("images/Snapshoot\ Portfolio3.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-  .works4 .illustration {
-    background-image: url("images/Snapshoot\ Portfolio4.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-  .works .w_ctn {
-    height: 100%;
-    width: 50%;
-    padding: 10px;
-    padding-top: 5%;
-    box-sizing: border-box;
+  .image-mobile {
+    display: none;
   }
 
   .w_ctn .description {
@@ -922,4 +1024,70 @@ hr {
   .hr {
     display: none;
   }
+
+  /* -------Desktop Popup----------------------------------------------------------------------------- */
+
+  .pop_works {
+    position: fixed;
+    background-color: rebeccapurple;
+    width: 98vw;
+    left: 12%;
+    top: 8%;
+    height: 120vh;
+    padding: 0;
+  }
+
+  .popup-header {
+    padding: 0;
+  }
+
+  .popup-header .popup_xclose {
+    left: 92vw;
+  }
+
+  ul.pop_description {
+    margin-right: 55vw;
+    display: flex;
+    gap: 0;
+  }
+
+  .pop_image {
+    display: none;
+  }
+
+  .popdsk_image {
+    display: flex;
+    width: 82vw;
+    padding: 20px 10px 59px 101px;
+  }
+
+  .pop_more-info {
+    display: flex;
+    width: 53vw;
+  }
+
+  .pop_grid {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+  }
+
+  .pop_lang {
+    margin-left: 50%;
+  }
+
+  .pop_see {
+    width: 14vw;
+  }
+
+  .pop_hr {
+    display: none;
+  }
+
+  .left-side {
+    margin-left: -2rem;
+  }
+}
+
+.hidden {
+  display: none;
 }
