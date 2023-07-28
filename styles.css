@@ -1029,11 +1029,11 @@ ul.pop_description {
 
   .pop_works {
     position: fixed;
-    background-color: rebeccapurple;
+    background-color: #ffff;
     width: 98vw;
     left: 12%;
     top: 8%;
-    height: 120vh;
+    height: 142vh;
     padding: 0;
   }
 
@@ -1041,8 +1041,12 @@ ul.pop_description {
     padding: 0;
   }
 
+  .header-pop {
+    margin-bottom: 2px;
+  }
+
   .popup-header .popup_xclose {
-    left: 92vw;
+    left: 86vw;
   }
 
   ul.pop_description {
