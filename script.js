@@ -189,26 +189,17 @@ projectButtons.forEach((button) => {
 });
 
 // Validation form
-const formVal = document.getElementById('contactForm');
+document.getElementById('contactForm').addEventListener('submit', (event) => {
+  const emailInput = document.getElementById('email');
+  const errorMessage = document.getElementById('error-message');
 
-function notLowercase(arg) {
-  if (arg.match(/^[a-z@.0-9-_]*$/)) {
-    return false;
-  }
-  return true;
-}
-
-formVal.addEventListener('submit', (event) => {
-  event.preventDefault();
-  const errorMessage = document.getElementById('alertP');
-
-  if (notLowercase(formVal.elements.email.value)) {
-    const alertMessage = 'Please write your email in lowercase eg.(myemail@mydomain.com)';
-    errorMessage.innerHTML = alertMessage;
-    errorMessage.classList.add('alertPmessage');
+  // Check if the email input is in lowercase
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    // If not in lowercase, show error message and prevent form submission
+    errorMessage.style.display = 'block';
+    event.preventDefault();
   } else {
-    errorMessage.innerHTML = '';
-    errorMessage.classList.remove('alertPmessage');
-    formVal.submit();
+    // If in lowercase, hide error message and allow form submission
+    errorMessage.style.display = 'none';
   }
 });
