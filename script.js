@@ -204,27 +204,33 @@ document.getElementById('contactForm').addEventListener('submit', (event) => {
   }
 });
 
+// Function to save form data to local storage
+function saveFormDataToLocalStorage() {
+  const formData = {
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    message: document.getElementById('textarea').value,
+  };
 
-  function saveFormDataToLocalStorage() {
-    const formData = {
-      name: document.getElementById('name').value,
-      email: document.getElementById('email').value,
-      message: document.getElementById('textarea').value,
-    };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
 
-    localStorage.setItem('formData', JSON.stringify(formData));
+// Function to load data from local storage and pre-fill the form
+function loadFormDataFromLocalStorage() {
+  const formData = JSON.parse(localStorage.getItem('formData'));
+
+  if (formData) {
+    document.getElementById('name').value = formData.name || '';
+    document.getElementById('email').value = formData.email || '';
+    document.getElementById('textarea').value = formData.message || '';
   }
+}
 
-  // Function to load data from local storage and pre-fill the form
-  function loadFormDataFromLocalStorage() {
-    const formData = JSON.parse(localStorage.getItem('formData'));
+// Add event listeners to input fields and textarea to save data to local storage on input change
+const inputFields = document.querySelectorAll('#contactForm input, #contactForm textarea');
+inputFields.forEach((inputField) => {
+  inputField.addEventListener('input', saveFormDataToLocalStorage);
+});
 
-    if (formData) {
-      document.getElementById('name').value = formData.name || '';
-      document.getElementById('email').value = formData.email || '';
-      document.getElementById('textarea').value = formData.message || '';
-    }
-  }
-
-  // Load data from local storage on page load
-  window.addEventListener('load', loadFormDataFromLocalStorage);
+// Load data from local storage and pre-fill the form on page load
+loadFormDataFromLocalStorage();
