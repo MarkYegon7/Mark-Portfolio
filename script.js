@@ -189,13 +189,15 @@ projectButtons.forEach((button) => {
 });
 
 // Validation form
-const contactForm = document.querySelector('#form');
+const submit = document.querySelector('.button3');
 const errorMessage = document.querySelector('#error-message');
-const emailInput = document.querySelector('#mail');
-
-contactForm.addEventListener('submit', (e) => {
-  if (!emailInput.checkValidity()) {
-    e.preventDefault();
-    errorMessage.style.display = 'block';
+submit.addEventListener('click', (event) => {
+  const emailInput = document.querySelector('#email');
+  const emailValue = emailInput.value;
+  if (emailValue !== emailValue.toLowerCase()) {
+    event.preventDefault();
+    errorMessage.innerHTML = alert('Please use only lowercase email addresses!');
+    return false;
   }
+  return true;
 });
