@@ -189,15 +189,26 @@ projectButtons.forEach((button) => {
 });
 
 // Validation form
-const submit = document.querySelector('.button3');
-const errorMessage = document.querySelector('#error-message');
-submit.addEventListener('click', (event) => {
-  const emailInput = document.querySelector('#email');
-  const emailValue = emailInput.value;
-  if (emailValue !== emailValue.toLowerCase()) {
-    event.preventDefault();
-    errorMessage.innerHTML = alert('Please use only lowercase email addresses!');
+const formVal = document.getElementById('contactForm');
+
+function notLowercase(arg) {
+  if (arg.match(/^[a-z@.0-9-_]*$/)) {
     return false;
   }
   return true;
+}
+
+formVal.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const errorMessage = document.getElementById('alertP');
+
+  if (notLowercase(formVal.elements.email.value)) {
+    const alertMessage = 'Please write your email in lowercase eg.(myemail@mydomain.com)';
+    errorMessage.innerHTML = alertMessage;
+    errorMessage.classList.add('alertPmessage');
+  } else {
+    errorMessage.innerHTML = '';
+    errorMessage.classList.remove('alertPmessage');
+    formVal.submit();
+  }
 });
