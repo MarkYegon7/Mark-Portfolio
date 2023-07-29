@@ -199,5 +199,3 @@ contactForm.addEventListener('submit', (e) => {
     errorMessage.style.display = 'block';
   }
 });
-
-
