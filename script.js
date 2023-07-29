@@ -187,3 +187,17 @@ projectButtons.forEach((button) => {
     popupContainer.classList.remove('hidden');
   });
 });
+
+
+const contactForm = document.querySelector('#form');
+const errorMessage = document.querySelector('#error-message');
+const emailInput = document.querySelector('#mail');
+
+contactForm.addEventListener('submit', (e) => {
+  if (!emailInput.checkValidity()) {
+    e.preventDefault();
+    errorMessage.style.display = 'block';
+  }
+});
+
+
