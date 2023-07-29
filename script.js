@@ -226,7 +226,7 @@ function loadFormDataFromLocalStorage() {
   }
 }
 
-// Add event listeners to input fields and textarea to save data to local storage on input change
+// Function to save data to local storage
 const inputFields = document.querySelectorAll('#contactForm input, #contactForm textarea');
 inputFields.forEach((inputField) => {
   inputField.addEventListener('input', saveFormDataToLocalStorage);
