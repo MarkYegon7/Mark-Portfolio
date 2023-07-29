@@ -188,7 +188,7 @@ projectButtons.forEach((button) => {
   });
 });
 
-
+// Validation form
 const contactForm = document.querySelector('#form');
 const errorMessage = document.querySelector('#error-message');
 const emailInput = document.querySelector('#mail');
