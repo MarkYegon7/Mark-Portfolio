@@ -90,6 +90,10 @@ This project has been deployed using GitHub pages.
 
 - GitHub: MarkYegon7 (https://github.com/MarkYegon7)
 
+- Twitter: [Twitter]@Marksambai
+
+- LinkedIn: [LinkedIn]https://www.linkedin.com/in/mark-yegon-00a569235/
+
 
   👤 **Damian DB**
 
