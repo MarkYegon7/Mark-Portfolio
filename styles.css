@@ -9,6 +9,9 @@
 
 body {
   background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
 }
 
 .header-logo {
@@ -167,11 +170,11 @@ body {
   order: 0;
   flex-grow: 0;
   margin-left: 1rem;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .image-mobile {
-  width: 18.438rem;
+  width: 86%;
   height: 20rem;
   border-radius: 0.5rem;
   flex: none;
@@ -180,6 +183,7 @@ body {
   margin: 0 auto;
   display: block;
   transition: all 0.5s;
+  /* margin: -8% 1% -10% 7%; */
 }
 
 .description {
@@ -192,7 +196,7 @@ ul.description {
   align-items: center;
   justify-content: space-between;
   margin-left: 5%;
-  margin-right: 16px;
+  margin-right: 7px;
 }
 
 .canopy {
@@ -239,12 +243,12 @@ ul.description {
 }
 
 .languages {
-  width: 1.813rem;
+  /* width: 1.813rem; */
   height: 3.25rem;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1rem;
   letter-spacing: 0.03em;
   color: #6070ff;
@@ -687,8 +691,8 @@ hr {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: 1rem;
-  margin-bottom: 39px;
+  /* margin-left: 1rem; */
+  margin-bottom: 3%;
 }
 
 .pop_description {
@@ -700,8 +704,9 @@ ul.pop_description {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 5%;
+  /* margin-left: 5%; */
   margin-right: 16px;
+  gap: 4%;
 }
 
 .popup-header {
@@ -710,7 +715,7 @@ ul.pop_description {
 
 .popup_xclose {
   position: absolute;
-  left: 72vw;
+  left: 69vw;
   padding-top: 4px;
   width: 15px;
   height: 15px;
@@ -742,8 +747,7 @@ ul.pop_description {
 }
 
 .pop_back {
-  width: 6.125rem;
-  height: 1rem;
+  width: 6rem;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -756,14 +760,14 @@ ul.pop_description {
 }
 
 .pop_image {
-  width: 18.438rem;
-  height: 20rem;
+  width: 95%;
   border-radius: 0.5rem;
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 0 auto;
   display: block;
+  margin-bottom: 4%;
 }
 
 .popdsk_image {
@@ -781,16 +785,14 @@ ul.pop_description {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
 }
 
 .pop_languages {
-  width: 1.813rem;
-  height: 3.25rem;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; */
   line-height: 1rem;
   letter-spacing: 0.03em;
   color: #6070ff;
@@ -799,6 +801,7 @@ ul.pop_description {
   flex-grow: 0;
   display: flex;
   list-style: none;
+  margin-left: -10px
 }
 
 .pop_lang {
@@ -810,6 +813,12 @@ ul.pop_description {
   width: fit-content;
   height: 1.6rem;
   border: 0;
+}
+
+.button-see {
+  /* width: 20vw; */
+  display: flex;
+  flex-direction: row;
 }
 
 .pop_see {
@@ -825,21 +834,29 @@ ul.pop_description {
 }
 
 .pop_hr {
-  margin-left: 36%;
+  margin-left: 32%;
   width: 25vw;
+  margin-bottom: -50px;
+  margin-top: 53px;
 }
 
 .pop_works {
   position: fixed;
   background-color: white;
   border-radius: 20px;
-  padding: 20px;
+  padding: 20px 10px 20px 11px;
+  /* padding: 20px; */
   backdrop-filter: blur(127px);
-  box-shadow: 0 0 100px 111px hsl(240deg 2.24% 76.79% / 86%);
+  /* box-shadow: 0 0 100px 111px hsl(240deg 2.24% 76.79% / 86%); */
+  box-shadow: 0 0 100px 111px hsl(227.71deg 8.75% 78.16% / 95%);
   width: 74vw;
-  top: 6%;
+  top: 9%;
   left: 10%;
-  height: 84vh;
+  /* height: 84vh; */
+  /* transform: translate(0%, 5%); */
+  box-shadow: 0 0 100px 111px hsl(227.71deg 8.75% 78.16% / 95%);
+  backdrop-filter: blur(127px);
+  z-index: 1;
 }
 
 /* ====================================================================================================================== */
@@ -936,6 +953,7 @@ ul.pop_description {
     align-items: center;
     background-size: contain;
     background-repeat: no-repeat;
+    padding-left: 5%;
   }
 
   .image-mobile {
@@ -1031,10 +1049,8 @@ ul.pop_description {
   .pop_works {
     position: fixed;
     background-color: #ffff;
-    width: 98vw;
-    left: 12%;
-    top: 8%;
-    height: 142vh;
+    left: 11%;
+    top: 2%;
     padding: 0;
   }
 
@@ -1043,17 +1059,16 @@ ul.pop_description {
   }
 
   .header-pop {
-    margin-bottom: 2px;
+    margin: 1% 0 1% 6%;
   }
 
   .popup-header .popup_xclose {
-    left: 86vw;
+    left: 69vw;
   }
 
   ul.pop_description {
-    margin-right: 55vw;
+    padding: 0% 47% 0px 6%;
     display: flex;
-    gap: 0;
   }
 
   .pop_image {
@@ -1062,13 +1077,15 @@ ul.pop_description {
 
   .popdsk_image {
     display: flex;
-    width: 82vw;
-    padding: 20px 10px 59px 101px;
+    width: 66vw;
+    padding: 19px 1px 28px 49px;
+    height: 66vh;
   }
 
   .pop_more-info {
     display: flex;
-    width: 53vw;
+    width: 40vw;
+    padding: 1% 1% 1% 9%;
   }
 
   .pop_grid {
@@ -1077,7 +1094,19 @@ ul.pop_description {
   }
 
   .pop_lang {
-    margin-left: 50%;
+    margin-left: 0;
+  }
+
+  .pop_languages {
+    width: 10%;
+    margin-left: 4%;
+  }
+
+  .button-see {
+    width: 34vw;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5%;
   }
 
   .pop_see {
@@ -1089,7 +1118,7 @@ ul.pop_description {
   }
 
   .left-side {
-    margin-left: -2rem;
+    margin-left: 4%;
   }
 }
 
