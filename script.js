@@ -146,13 +146,16 @@ function createPopup(cardData) {
                 <ul class="pop_languages">
                   ${cardData.technologies.map((technology) => `<li class="pop_lang">${technology}</li>`).join('')}
                 </ul>
+              <div class="button-see">
                 <button class="pop_see"><a href="${cardData.liveLink}" target="_blank">Live Link <img src="images/liveImage.svg" alt="" srcset=""></a></button>
                 <button class="pop_see"><a href="${cardData.sourceLink}" target="_blank">Source Link <img src="images/sourceImage.svg" alt=""></a></button>
               </div>
-              
+                </div>
+                
             </div>
           </div>
-      </div>  
+          <hr class="pop_hr">
+      </div> 
     `;
 
   // Set the popup content
