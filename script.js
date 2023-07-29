@@ -187,3 +187,19 @@ projectButtons.forEach((button) => {
     popupContainer.classList.remove('hidden');
   });
 });
+
+// Validation form
+document.getElementById('contactForm').addEventListener('submit', (event) => {
+  const emailInput = document.getElementById('email');
+  const errorMessage = document.getElementById('error-message');
+
+  // Check if the email input is in lowercase
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    // If not in lowercase, show error message and prevent form submission
+    errorMessage.style.display = 'block';
+    event.preventDefault();
+  } else {
+    // If in lowercase, hide error message and allow form submission
+    errorMessage.style.display = 'none';
+  }
+});

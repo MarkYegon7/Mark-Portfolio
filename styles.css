@@ -848,6 +848,13 @@ ul.pop_description {
   z-index: 1;
 }
 
+#error-message {
+  color: black;
+  display: none;
+  font-size: 31px;
+  margin-top: 30px;
+}
+
 /* ====================================================================================================================== */
 
 /* Styling the desktop version */
