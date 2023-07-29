@@ -203,3 +203,28 @@ document.getElementById('contactForm').addEventListener('submit', (event) => {
     errorMessage.style.display = 'none';
   }
 });
+
+
+  function saveFormDataToLocalStorage() {
+    const formData = {
+      name: document.getElementById('name').value,
+      email: document.getElementById('email').value,
+      message: document.getElementById('textarea').value,
+    };
+
+    localStorage.setItem('formData', JSON.stringify(formData));
+  }
+
+  // Function to load data from local storage and pre-fill the form
+  function loadFormDataFromLocalStorage() {
+    const formData = JSON.parse(localStorage.getItem('formData'));
+
+    if (formData) {
+      document.getElementById('name').value = formData.name || '';
+      document.getElementById('email').value = formData.email || '';
+      document.getElementById('textarea').value = formData.message || '';
+    }
+  }
+
+  // Load data from local storage on page load
+  window.addEventListener('load', loadFormDataFromLocalStorage);
